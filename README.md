@@ -111,11 +111,16 @@ cowsay-off
 echo "All cows have been silenced... for now."
 ```
 ---
-xjokes
+### 🎭 xjokes
 ```bash
 sudo apt install xjokes
 ```
 > Tools included: yasiti, blackhole, mori1, and mori2 – small visual tools to play with your X display.
+
+To get a girl to wink at you:
+```bash
+mori2
+```
 ---
 
 oneko
@@ -131,15 +136,15 @@ oneko
 Customize:
 ```bash
 oneko -name fresh       # Name the kitty 'fresh'
-oneko -toname fed       # Launch a second kitty to chase 'fresh'
+oneko -toname fresh     # Launch a second kitty to chase 'fresh'
 oneko -tora             # Use tiger stripes
 oneko -dog              # Use a puppy instead
 oneko -sakura           # Cherry blossom version
 oneko -tomoyo           # Anime style kitty
 ```
 ---
-
-fortune
+### 🥠 fortune
+Install:
 ```bash
 sudo apt install fortune
 ```
@@ -152,8 +157,8 @@ Use it with cowsay for added fun:
 fortune | cowsay
 ```
 ---
-
-pv
+### 📊 pv – Monitor data progress as it flows through pipes.
+Install:
 ```bash
 sudo apt install pv
 ```
@@ -162,8 +167,8 @@ Simulate slow typing:
 echo "Fresh Forensics is your go-to source for learning Linux" | pv -qL 10
 ```
 ---
-
-aview
+### 🖼️ aview
+Install:
 ```bash
 sudo apt install aview
 ```
@@ -172,8 +177,8 @@ Convert images to ASCII in the terminal:
 asciiview image.jpg
 ```
 ---
-
-xeyes (from x11-apps)
+### 👀 xeyes (from x11-apps)
+Install:
 ```bash
 sudo apt install x11-apps
 ```
@@ -182,18 +187,18 @@ Little eyes that follow your mouse around the screen.
 xeyes
 ```
 ---
-
-banner
+### 📢 sysvbanner – Create big, bold text banners right in your terminal.
+Install:
 ```bash
 sudo apt install sysvbanner
 ```
 Prints system-style text banners.
 ```bash
-banner Hello
+banner TuxTricks!
 ```
 ---
-
-rev
+### 🔁 rev – Reverses the characters of each line of input text. 
+Install
 ```bash
 sudo apt install util-linux
 ```
@@ -227,15 +232,18 @@ echo $ip | rev
 ```
 > (Not perfect for direct DNS usage, but useful for scripting and manipulation.)
 ---
-
-yes
+### 🔂 yes – Repeats a string endlessly
+Install:
 ```bash
 sudo apt install coreutils
 ```
-
 Specify a custom string:
 ```bash
 yes "Fresh Forensics"
+```
+You can also use it for auto-confirming:
+```bash
+yes | sudo apt install hyfetch
 ```
 If you want to answer 'yes' to all prompts from a command (e.g., `rm -i`), you can pipe `yes`:
 ```bash
@@ -247,5 +255,13 @@ yes > /dev/null &
 ```
 > This runs in the background and stresses your CPU by printing `y` to nowhere
 
+<h2 align="center"> 
+  <a href="https://www.buymeacoffee.com/dfreshZ" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+<p align="center">
+  <a href="https://www.youtube.com/@DouglasHabian-tq5ck">Stay Fresh</a>, 
+  <a href="https://github.com/DouglasFreshHabian/FreshPdfLibrary">Keep Learning!</a>
+</p>
+
+<!-- echo dfresh9tutanota1com|tr 91 @.  -->
 
