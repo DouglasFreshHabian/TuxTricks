@@ -10,6 +10,9 @@
 Welcome to TuxTricks, a whimsical yet powerful collection of fun, quirky, and sometimes downright bizarre Linux tools and commands. Whether you're new to Linux or a seasoned terminal ninja, these tools will make you smile—and maybe even teach you something new.
 
 ## 🎪 Tools Showcase
+<details>
+  
+<summary>🖱 Click here to expand</summary>
 
 Here are some of the most entertaining and curiosity-sparking tools available on Linux:
 
@@ -54,6 +57,7 @@ yes - it repeatedly outputs a string or character (by default, the letter `y`) *
 nyancat - terminal-based Pop Tart Cat animation
 
 ninvaders - ncurses version of space invaders
+</details>
 
 ## 🐄 Terminal Cow Shenanigans with cowsay, xcowsay, and cowsay-off
 
