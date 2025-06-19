@@ -51,6 +51,10 @@ rev – Reverses text input for playful or practical manipulation
 
 yes - it repeatedly outputs a string or character (by default, the letter `y`) **until killed or stopped**.
 
+nyancat - terminal-based Pop Tart Cat animation
+
+ninvaders - ncurses version of space invaders
+
 ## 🐄 Terminal Cow Shenanigans with cowsay, xcowsay, and cowsay-off
 
 ### 💬 cowsay — ASCII Cow Talks in Your Terminal
@@ -254,7 +258,33 @@ yes | rm -i *.txt
 yes > /dev/null &
 ```
 > This runs in the background and stresses your CPU by printing `y` to nowhere
-
+---
+### 😻 nyancat - terminal based cat
+Install:
+```bash
+sudo apt install nyancat
+```
+Show the intro:
+```bash
+nyancat -i
+```
+Telnet mode:
+```bash
+nyancat -t
+```
+---
+### 👾 ninvaders - ncurses version of space invaders
+Install:
+```bash
+sudo apt install ninvaders
+```
+Skill Level:
+```bash
+ninvaders -l 0
+```
+> This is the most challenging of the three levels and is know as "NIGHTMARE"
+---
+ 
 <h2 align="center"> 
   <a href="https://www.buymeacoffee.com/dfreshZ" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
