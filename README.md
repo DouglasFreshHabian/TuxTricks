@@ -57,6 +57,11 @@ yes - it repeatedly outputs a string or character (by default, the letter `y`) *
 nyancat - terminal-based Pop Tart Cat animation
 
 ninvaders - ncurses version of space invaders
+
+davegnukem - A retro-style 2D scrolling platform shooter
+
+pipes.sh - animated pipes terminal screensaver
+
 </details>
 
 ## 🐄 Terminal Cow Shenanigans with cowsay, xcowsay, and cowsay-off
@@ -288,7 +293,35 @@ ninvaders -l 0
 ```
 > This is the most challenging of the three levels and is know as "NIGHTMARE"
 ---
- 
+### 💣 davegnukem - retro-style 2D scrolling platform shooter game
+Install:
+```bash
+sudo apt install davegnukem
+```
+Run in Fullscreen Mode:
+```bash
+davegnukem -f
+```
+---
+### 🖍 pipes.sh - Animated Pipes Terminal Screensaver
+Github Repo:
+```bash
+https://github.com/pipeseroni/pipes.sh
+```
+Download the `pipes.sh` bash script:
+```bash
+wget https://github.com/pipeseroni/pipes.sh/blob/master/pipes.sh
+```
+Try Out Different Types of Pipes:
+```bash
+./pipes.sh -t [0-9]
+```
+Run Custom Pipe:
+```bash
+./pipes.sh -t c[FRESHFORENSICS]
+```
+ > Note: -t and -c can be used more than once.
+---
 <h2 align="center"> 
   <a href="https://www.buymeacoffee.com/dfreshZ" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
